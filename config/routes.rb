@@ -4,6 +4,9 @@ Quotes::Application.routes.draw do
   get "pages/about"
 
   get "pages/contact"
+  
+  get "pages/styles"
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
