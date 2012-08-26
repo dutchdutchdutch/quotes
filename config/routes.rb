@@ -1,4 +1,6 @@
 Quotes::Application.routes.draw do
+  resources :projects
+
   get "pages/home"
 
   get "pages/about"

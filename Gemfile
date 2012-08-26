@@ -16,11 +16,12 @@ group :development, :test do
 end
 
 group :development do
-  gem 'rspec-rails', '2.0.1'
+  gem 'rspec-rails', '2.6.1.beta1'
 end
  
 group :test do
-  gem 'rspec-rails', '2.0.1'
+  gem 'rspec-rails', '2.6.1.beta1'
+  gem 'rspec', '2.6'
   gem 'webrat', '0.7.1'
   gem 'spork',  '0.8.4'
 end 
@@ -31,6 +32,9 @@ end
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  #zurb foundation gems
+  gem 'compass-rails', '~> 1.0.3'
+  gem 'zurb-foundation', '~> 3.0.9'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platform => :ruby
@@ -39,6 +43,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+gem 'twitter'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
