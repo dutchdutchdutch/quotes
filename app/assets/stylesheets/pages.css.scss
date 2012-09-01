@@ -10,8 +10,28 @@
 
 .quote {
 	font: {
-		family: times, serif;
+		family: Georgia;
+		style:italic;
 		size: 2em;
-		weight: bold;	
+		weight: bold;			
+	
 	}
+	color: #000;
+	line-height: 1.2em;
+	margin-top:1em;
 }
+
+.tweetster{
+color: #999;
+}
+
+.footer {
+	padding-top:2em;
+	color: #222;
+}
+
+copyright {
+
+	color: #F00;
+}
+

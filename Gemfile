@@ -44,7 +44,7 @@ end
 
 gem 'jquery-rails'
 
-gem 'twitter'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -60,3 +60,5 @@ gem 'twitter'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+gem 'twitter'

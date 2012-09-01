@@ -1,13 +1,18 @@
 Quotes::Application.routes.draw do
   resources :projects
 
-  get "pages/home"
-
-  get "pages/about"
-
-  get "pages/contact"
+ 
+ match '/about', :to => 'pages#about'
+ 
+ match '/wall', :to => 'pages#wall'
+ 
+ match '/styles', :to => 'pages#styles'
+ 
+ match '/contact', :to => 'pages#contact'
+ 
+ root :to => 'pages#home'
+ 
   
-  get "pages/styles"
   
 
   # The priority is based upon order of creation:

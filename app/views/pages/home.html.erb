@@ -1,11 +1,16 @@
 
-<h1>Sample app</h1>
 
-<h2> Examples </h2>
 
-<p> Memorable quotes from <a href= "http://www.github.com">any project</a> </p>
-		
-<p>My lethal weapon is my Card</p>
+
+<% Twitter.search("#youaintTdubenough -rt" ).results.map do |tweet| %>
+
+	<div class="quote"><%=  tweet.text %> <span class="tweetster"> &mdash; <%= tweet.from_user %><span></div>
+<% end %>
+	
+
+	
+
+
 		
 			
 	

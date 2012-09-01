@@ -4,6 +4,10 @@ class PagesController < ApplicationController
   def home
     @title = "Home"
   end
+  
+  def styles
+      @title = "Wall"
+   end
 
   def about
      @title = "About"
@@ -16,5 +20,7 @@ class PagesController < ApplicationController
   def styles
      @title = "Styles"
   end
+  
+ 
   
 end
