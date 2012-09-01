@@ -1,4 +1,6 @@
 Quotes::Application.routes.draw do
+  # get "users/new"
+
   resources :projects
 
  
@@ -9,6 +11,8 @@ Quotes::Application.routes.draw do
  match '/styles', :to => 'pages#styles'
  
  match '/contact', :to => 'pages#contact'
+ 
+ match '/signup' , :to => 'users#new'
  
  root :to => 'pages#home'
  

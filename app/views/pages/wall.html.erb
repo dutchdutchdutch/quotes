@@ -1,0 +1,16 @@
+
+
+
+<% cache "quotewallcache#{Date.today}" do %>
+	<% Twitter.search("#youaintTdubenough -rt").results.map do |tweet| %>
+		<div class="quote"><%=  tweet.text %> <span class="tweetster"> &mdash; <%= tweet.from_user %><span></div>
+	<% end %>
+<% end %>	
+
+		
+
+
+		
+			
+	
+
